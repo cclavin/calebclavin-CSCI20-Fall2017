@@ -12,9 +12,10 @@ If the guessed number is lower than the selected number, then the program
 If the guessed number is correct, then the user does not lose points and the
   total points left is displayed.
   
-After a failed guess the user loses 1 point
+After a failed guess the user loses 1 point from the amount they have at the 
+  beginning of the "guess"
 
-Repeat lines 7-16 until the user guesses correctly or until there are 0 points 
+Repeat lines 7-15 until the user guesses correctly or until there are 0 points 
   remaining
 
 
