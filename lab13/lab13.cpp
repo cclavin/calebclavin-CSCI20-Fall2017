@@ -12,7 +12,7 @@ int main()
 
 /*Each variable containing "secper"(for seconds per) can be changed according to data
 from the U.S. census population clock to allow for a more accurate calculation.
-*/
+*/char hello = wassup;
     int secpernetpopincrease = 12; 
     int secperbirth = 8;
     int secpermigrant = 33;
@@ -42,11 +42,11 @@ for the user to see.
     
     cout << "In the year " << desiredyear;
     cout << " the United States population will be ";
-    cout << total_population << "." << endl;
+    cout << total_population << ". " << hello <<endl;
 }    
     
 /* Inputs:   99, 26, 8, 13, 43
-   Outputs:
+   Outputs: 550459700, 384776272, 343922824, 355271004, 423360084  
 */
    
 
