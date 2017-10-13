@@ -27,6 +27,7 @@ int main()
     if((gb_data > 25)&&(num_phones <= 3)&&(num_tablets == 0)) {
         cout << "The best plan for you is the Sprint Unlimited.";
     }
+    //It is assumed that if the user wants a specific amount of data
     else if((gb_data < 25)&&(gb_data != 2)||(gb_data != 0)){
         cout << "The best plan for you is the ATT Family Plan.";
     }
