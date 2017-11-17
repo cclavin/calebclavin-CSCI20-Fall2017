@@ -1,7 +1,7 @@
 //Created by: Caleb Clavin
 //Created on: 11/9/2017
 
-//Username Generator -- This program uses c-strings and its library functions to store input and manipulate the characters
+//Username Generator -- This program uses c-strings and its library functions as well as one cctype fuction to store input and manipulate the characters
 // in order to generate 3 different username options based on their first and last name.
 
 #include <iostream>
@@ -70,6 +70,17 @@ int main()
     cout << "3. " << third_username << endl;
     
     
-//Output: 
+/*Example Output: 
+
+ *  Enter your full name using 10 characters for the first name and 20 characters for the last name.
+    First name: Caleb
+ *   Last name: Clavin
+    Which type of user name would you like: 
+ *  1. calebclavin
+    2. caclavin
+ *  3. cclavin
+  
+ */
+
     
 }
