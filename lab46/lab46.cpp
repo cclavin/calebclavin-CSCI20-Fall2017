@@ -42,13 +42,17 @@ int main() {
    
       for(i = 0; i < num_classes * 2; ++i) {//The loop iterates twice for every class for grade and the amount of credits
          fin >> classes[i];
-      }
+      }//Stuck on trying to figure out how to get the data from the string
    }
    class_data = classes;
    
-   if(classes < 6 && classes > 0) {
+   if(classes ==) {
       credits = classes;
    }
+   
+   
+   
+   
    cout << credits;
    while(fin.good()) {
    fin >> classes;
