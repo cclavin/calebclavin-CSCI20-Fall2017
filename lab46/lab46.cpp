@@ -62,12 +62,14 @@ int main() {
             grade_points += 0;
          }
       }
+        
          for(i = 0; i < num_classes; ++i) {
             total_credits = total_credits + credits[i];//The credits are added up in order to make the gpa calculation
          }   
          
          gpa = grade_points / total_credits;
          
+      
       //Finally, the calulation is complete and a new stream is opened to output to a new html file.
       fout.open("reportcard.html");
       fout << "<!DOCTYPE html>" << endl;
@@ -77,9 +79,6 @@ int main() {
       fout << "<p> Student GPA: " << gpa << "</p>" << endl;
       fout << "</body>" << endl;
       fout << "</html>" << endl;
-         
-      
-         
       
    }
   
