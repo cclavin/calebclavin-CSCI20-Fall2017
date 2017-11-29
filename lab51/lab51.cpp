@@ -13,7 +13,7 @@ int main() {
 
     char * head  = name; //Points head to the first letter of the string
     char * tail = name; //Also points tail to the first letter of the string
-    nameLength = strlen(name);//Stores the length of the array name points to, by deleting the dereference operator, 
+    nameLength = strlen(name);//Stores the length of the array name points to, by deleting the dereference operator, it can find the length of the entire string 
 
     cout << "Your word is " << name << endl;//firststr is not declared and has no value stored
 
@@ -36,7 +36,7 @@ int main() {
 
      if (nameLength < 10)
      {
-          while (tail != name)
+          while (tail != name)//While tail doesn't equal the first character
           {
                  cout << *tail; //Outputs each character, from the last character to the first, until tail points to the first character of the string, like name
                  tail--;
@@ -44,13 +44,13 @@ int main() {
      }
      cout << endl;
 
-     head = name;
-     tail = &name[strlen(name) - 1];
+     head = name;//Points to the first character again
+     tail = &name[strlen(name) - 1];//Points tail to the last character again
 
-     head++;
-     tail--;
+     head++;//Goes from first to the last character of the string
+     tail--;//Goes backwards from the last character to the first
 
-     if (*head == *tail)
+     if (*head == *tail)//Compares the backwards string that tail points to and the regular string pointed to by head
      {
          cout << "It is a palindrome!" << endl;
      }
